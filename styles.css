@@ -1,0 +1,56 @@
+#submitButton {
+	margin: 10px 0px 0px 0px;
+	width: 106px;
+}
+
+#combinationLock {
+	width: 102px;
+	height: 136px;
+	padding: 2px;
+	background: #131313;
+	border-radius: 5px;
+}
+
+.combinationKey {
+	background: #5e5e5e;
+	width: 30px;
+	height: 30px;
+	margin: 2px;
+	float: left;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 31px;
+	border-radius: 3px;
+}
+
+.resetKey {
+	width: 64px;
+}
+
+.resetKey:active {
+	background: #d1362f !important;
+	box-shadow: inset #7b7b7b 0px 0px 10px;
+}
+
+.combinationKey:hover {
+	background: #7b7b7b;
+	cursor: pointer;
+}
+
+.combinationKey:active {
+	background: #dfae46;
+	box-shadow: inset #7b7b7b 0px 0px 10px;
+}
+
+.pressed, .pressed:hover {
+	background: #80b737;
+	box-shadow: inset #7b7b7b 0px 0px 10px;
+}
+
+.pressed:active {
+	background: #dfae46;
+	box-shadow: inset #7b7b7b 0px 0px 10px;
+}
